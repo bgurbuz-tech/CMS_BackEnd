@@ -1,0 +1,14 @@
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\bin\Debug\netcoreapp2.1\CMS_App.deps.json
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\bin\Debug\netcoreapp2.1\CMS_App.runtimeconfig.json
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\bin\Debug\netcoreapp2.1\CMS_App.runtimeconfig.dev.json
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\bin\Debug\netcoreapp2.1\CMS_App.dll
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.csprojAssemblyReference.cache
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.csproj.CoreCompileInputs.cache
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.RazorAssemblyInfo.cache
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.RazorAssemblyInfo.cs
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.AssemblyInfoInputs.cache
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.AssemblyInfo.cs
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.RazorTargetAssemblyInfo.cache
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\bin\Debug\netcoreapp2.1\CMS_App.pdb
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.dll
+C:\Users\MesutGurbuz\source\repos\CMS_App\CMS_App\obj\Debug\netcoreapp2.1\CMS_App.pdb
