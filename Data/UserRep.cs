@@ -117,6 +117,7 @@ namespace CMS_App.Data
             ObjectId objID = GetInternalId(id);
             var filter = Builders<User>.Filter.Eq(s => s.InternalId, objID);
             var update = Builders<User>.Update
+                            .Set(s => s.UserEmail, item.UserEmail)
                             .Set(s => s.UserPassword, item.UserPassword)
                             .Set(s => s.UserType, item.UserType)
                             .Set(s => s.UserStatus, item.UserStatus)

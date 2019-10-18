@@ -58,6 +58,7 @@ namespace CMS_App
 
             services.AddTransient<IUserRep, UserRep>();
             services.AddTransient<IPage, PageRep>();
+            services.AddTransient<IPostRep, PostRep>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

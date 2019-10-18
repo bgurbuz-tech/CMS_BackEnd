@@ -30,7 +30,6 @@ namespace CMS_App.Controllers
         [HttpGet("getall")]
         public IEnumerable<User> GetAll()
         {
-
             return _userRep.GetAllUsers();
         }
 
