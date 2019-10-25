@@ -37,7 +37,7 @@ namespace CMS_App.Data
         {
             ObjectId objectId = GetInternalId(id);
             var filter = Builders<Post>.Filter.Eq(s => s.InternalId, objectId);
-            var update = Builders<Post>.Update.Set(s => s.PostState, "Archieved");
+            var update = Builders<Post>.Update.Set(s => s.PostState, "Archived");
             try
             {
                 UpdateResult actionResult = _context.Posts.UpdateOne(filter, update);
@@ -91,6 +91,25 @@ namespace CMS_App.Data
                                        .Set(s => s.PostContentBrief, item.PostContentBrief)
                                        .Set(s => s.PostContentExtended, item.PostContentExtended)
                                        .Set(s => s.PostImage, item.PostImage)
+                                       .Set(s => s.PostModifiedDate, DateTime.Now);
+            try
+            {
+                UpdateResult actionResult = _context.Posts.UpdateOne(filter, update);
+
+                return actionResult.IsAcknowledged
+                    && actionResult.ModifiedCount > 0;
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+        public bool UpdatePostState(string id, string type)
+        {
+            ObjectId objectId = GetInternalId(id);
+            var filter = Builders<Post>.Filter.Eq(s => s.InternalId, objectId);
+            var update =  Builders<Post>.Update
+                                       .Set(s => s.PostState, type)
                                        .Set(s => s.PostModifiedDate, DateTime.Now);
             try
             {

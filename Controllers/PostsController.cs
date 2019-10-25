@@ -75,15 +75,15 @@ namespace CMS_App.Controllers
         }
 
         [Authorize]
-        [HttpPost("{id}")]
-        public IActionResult ArchievePost(string id)
+        [HttpPost("UpdatePostState")]
+        public IActionResult UpdatePostState(string id, string type)
         {
-            var kod = _iPostRep.ArchievePost(id);
+            var kod = _iPostRep.UpdatePostState(id,type);
             if (!kod)
-                return BadRequest(new { message = "Post arşivlenemedi.Archieve" });
+                return BadRequest(new { message = "Post durumu güncellenemedi. UpdatePostState" });
             else
             {
-                return Ok(new { message = "Post arşivlendi!" });
+                return Ok(new { message = "Post durumu güncellendi!" });
             }
         }
 

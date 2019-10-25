@@ -12,6 +12,6 @@ namespace CMS_App.Interfaces
         IEnumerable<Post> GetPosts();
         Post GetPost(string id);
         bool UpdatePost(string id,Post item);
-        bool ArchievePost(string id);
+        bool UpdatePostState(string id, string type);
     }
 }
